@@ -1,0 +1,8 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: drpoc-channel
+  namespace: drpoc-ch
+spec:
+  type: GitHub
+  pathname: https://github.com/slavojk/drpoc.git

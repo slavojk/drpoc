@@ -1,0 +1,14 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: drpoc-route
+  labels:
+    app: drpoc-app
+spec:
+  to:
+    kind: Service
+    name: drpoc-svc
+    weight: 100
+  port:
+    targetPort: 3002
+  wildcardPolicy: None
