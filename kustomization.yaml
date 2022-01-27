@@ -1,6 +1,7 @@
-namespace: mcs-apps
+namespace: drpoc
 resources:
 - namespace.yaml
 - subscription.yaml
 - channel.yaml
+- placement.yaml
 - application.yaml
