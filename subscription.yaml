@@ -6,7 +6,7 @@ metadata:
   labels:
     app: drpoc-app
   annotations:
-    apps.open-cluster-management.io/github-path: drpoc
+    apps.open-cluster-management.io/github-path: /
     apps.open-cluster-management.io/github-branch: main
 spec:
   channel: drpoc-ch/drpoc-channel
